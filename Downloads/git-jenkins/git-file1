@@ -1,0 +1,15 @@
+pipeline {
+agent any
+stages {
+stage1('build') {
+steps {
+sh 'echo "build is sucess"'
+}
+}stage2('date') {
+steps {
+sh 'echo "show the date"'
+}
+}
+}
+}
+
